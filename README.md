@@ -121,17 +121,6 @@ O convite é totalmente responsivo e se adapta a:
 - [x] Logo da Estácio adicionado
 - [x] Background do Banco Inter configurado
 - [x] Contraste otimizado para legibilidade
-- [ ] Testar em diferentes dispositivos
-- [ ] Hospedar online
-
-## 🌐 Hospedagem
-
-Você pode hospedar este convite em:
-
-- **GitHub Pages**: Gratuito e fácil
-- **Netlify**: Deploy automático
-- **Vercel**: Performance otimizada
-- **Qualquer servidor web**: Funciona em qualquer lugar
 
 ## 👥 Equipe do Projeto
 
