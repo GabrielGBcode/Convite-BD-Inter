@@ -1,32 +1,43 @@
-# Convite Digital Elegante
+# Convite Digital - Projeto Banco Inter
 
-Um convite digital responsivo e elegante criado com HTML, CSS e JavaScript puro.
+Um convite digital elegante e responsivo criado para a apresentação do projeto acadêmico **"Relatório de Reclamações do Banco Inter"** desenvolvido por alunos de Análise e Desenvolvimento de Sistemas da Estácio.
 
 ## ✨ Características
 
 - **Design Responsivo**: Funciona perfeitamente em desktop, tablet e mobile
 - **Animações Suaves**: Efeitos de fade-in e transições elegantes
 - **Efeito Glass**: Cards com efeito de vidro translúcido
-- **Background Dinâmico**: Imagem de fundo com blur e overlay
-- **Gradientes Animados**: Textos com gradiente dourado animado
+- **Background Dinâmico**: Imagem oficial do Banco Inter com blur e overlay
+- **Contraste Otimizado**: Cores adaptadas para máxima legibilidade
 - **Performance Otimizada**: Carregamento rápido e suave
 
 ## 📁 Estrutura do Projeto
 
 ```
-convite/
-├── index.html          # Página principal
+Convite/
+├── index.html          # Página principal do convite
 ├── styles/
-│   └── main.css        # Estilos CSS
+│   └── main.css        # Estilos CSS com design responsivo
 ├── scripts/
-│   └── main.js         # JavaScript e animações
+│   └── main.js         # Animações e funcionalidades JavaScript
 └── README.md           # Este arquivo
 ```
+
+## 🎯 Sobre o Projeto
+
+Este convite foi criado para convidar a **Senhora Thais Leite** para a apresentação do projeto acadêmico que explorou o universo de dados gerados por ex-colaboradores do Banco Inter, com o objetivo de identificar padrões, oportunidades de melhoria e insights valiosos para o aprimoramento do ambiente organizacional.
+
+### Detalhes da Apresentação:
+
+- **Data**: 04 de julho de 2025
+- **Horário**: 19:30
+- **Local**: Estácio Lourdes - 4º andar - Laboratório 2
+- **Endereço**: Rio de Janeiro, 1323 - Lourdes, Belo Horizonte - MG
 
 ## 🚀 Como Usar
 
 1. **Abra o arquivo `index.html`** em qualquer navegador moderno
-2. **Personalize o conteúdo** editando o HTML
+2. **Personalize o conteúdo** editando o HTML conforme necessário
 3. **Ajuste os estilos** modificando o CSS
 4. **Hospede online** para compartilhar o convite
 
@@ -36,35 +47,39 @@ convite/
 
 Edite o arquivo `index.html` para personalizar:
 
-- **Título do convite**: Linhas 25-26
-- **Data e horário**: Linhas 45-58
-- **Local**: Linhas 60-66
-- **Mensagem**: Linhas 95-99
-- **Assinatura**: Linhas 115-116
+- **Título do convite**: Linha 25
+- **Nome do convidado**: Linha 26
+- **Descrição do projeto**: Linhas 27-29
+- **Data e horário**: Linhas 35-38
+- **Local e endereço**: Linhas 39-40
+- **Mensagem de agradecimento**: Linhas 41-42
+- **Nomes dos alunos**: Linhas 47-50
 
 ### Alterando as Cores
 
 No arquivo `styles/main.css`, você pode modificar:
 
 ```css
-/* Cores principais (dourado) */
---gold-400: #eab308;
---gold-500: #f59e0b;
---gold-600: #d97706;
+/* Cores principais */
+.gradient-text {
+  color: #ffe066 !important; /* Amarelo para títulos */
+}
 
-/* Background */
-.bg-blur {
-  background-image: url("sua-imagem-aqui.jpg");
+body {
+  color: #fff; /* Branco para texto principal */
+}
+
+.glass-card {
+  background: rgba(0, 0, 0, 0.65); /* Fundo escuro translúcido */
 }
 ```
 
-### Alterando as Imagens
+### Alterando o Background
 
-Substitua os links das imagens no HTML:
-
-```html
-<!-- Exemplo para a galeria -->
-<img src="sua-imagem.jpg" alt="Descrição da imagem" />
+```css
+.bg-blur {
+  background-image: url("sua-imagem-aqui.jpg");
+}
 ```
 
 ## 📱 Responsividade
@@ -81,31 +96,31 @@ O convite é totalmente responsivo e se adapta a:
 
 - **Fade-in**: Elementos aparecem suavemente ao rolar
 - **Hover effects**: Interações nas imagens da galeria
-- **Gradiente animado**: Textos com gradiente em movimento
-- **Pulse**: Ícones de coração pulsantes
+- **Pulse**: Ícones pulsantes
+- **Smooth transitions**: Transições suaves entre estados
 
 ### Performance
 
 - **Intersection Observer**: Animações otimizadas
 - **Debounce**: Scroll suave e eficiente
-- **Lazy loading**: Carregamento inteligente
+- **Background fixo**: Sem movimento durante scroll
 
 ## 🔧 Funcionalidades JavaScript
 
-- **Scroll suave** para links internos
 - **Animações baseadas em scroll** com Intersection Observer
-- **Efeito parallax** no background (desktop)
 - **Detecção de dispositivos touch**
 - **Otimização de performance**
+- **Smooth scroll** para links internos
 
 ## 📋 Checklist de Personalização
 
-- [ ] Alterar título do convite
-- [ ] Atualizar data e horário
-- [ ] Modificar endereço/local
-- [ ] Personalizar mensagem
-- [ ] Trocar imagens da galeria
-- [ ] Ajustar cores (se necessário)
+- [x] Título do convite configurado
+- [x] Data e horário atualizados
+- [x] Local e endereço definidos
+- [x] Nomes dos alunos incluídos
+- [x] Logo da Estácio adicionado
+- [x] Background do Banco Inter configurado
+- [x] Contraste otimizado para legibilidade
 - [ ] Testar em diferentes dispositivos
 - [ ] Hospedar online
 
@@ -117,6 +132,15 @@ Você pode hospedar este convite em:
 - **Netlify**: Deploy automático
 - **Vercel**: Performance otimizada
 - **Qualquer servidor web**: Funciona em qualquer lugar
+
+## 👥 Equipe do Projeto
+
+- **Gabriel Gomes Batista**
+- **Gilvan Rodrigues De Santana**
+- **João Carlos Ferreira Dias**
+- **Ricardo Eduardo Soares Do Espirito**
+
+**Alunos de Análise e Desenvolvimento de Sistemas - Estácio**
 
 ## 📞 Suporte
 
@@ -132,4 +156,4 @@ Este projeto é de uso livre. Sinta-se à vontade para modificar e usar como des
 
 ---
 
-**Criado com ❤️ para momentos especiais**
+**Criado com ❤️ para a apresentação do projeto Banco Inter**
